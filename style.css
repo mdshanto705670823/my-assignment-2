@@ -75,12 +75,13 @@ a {
   font-size: 80px;
 }
 .btn_div {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
 .btn_div > button {
-  width: 50%;
+  /* width: 50%; */
+  padding: 10px 20px;
 }
 .btn {
   text-decoration: solid;
@@ -627,6 +628,8 @@ li:hover {
   }
   .navabar {
     display: block;
+    padding: 14px;
+    margin-left: 0px;
   }
   .container {
     width: 768px;
@@ -711,11 +714,11 @@ li:hover {
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
   .calculator_box > div {
     flex-direction: row;
   }
   .calculator_box > div > section {
     width: 50%;
   }
-}
+} */
